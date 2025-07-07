@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>IlmVerse | Islamic Knowledge Hub</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF; /* pure white */
+    color: #4D4D4D; /* dark grey */
+    line-height: 1.6;
+  }
+  header {
+    text-align: center;
+    padding: 60px 20px 50px;
+    background-color: #F0F0F0; /* very light grey */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  header h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 3.8rem;
+    color: #4D4D4D; /* dark grey */
+  }
+  header p {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #808080; /* medium grey */
+  }
+  nav {
+    background-color: #E8E8E8; /* light grey */
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 18px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+  }
+  nav a {
+    color: #666666; /* medium grey */
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.15rem;
+    transition: color 0.3s ease;
+  }
+  nav a:hover {
+    color: #999999; /* lighter grey on hover */
+  }
+  main {
+    max-width: 960px;
+    margin: 50px auto 80px;
+    padding: 0 20px;
+    text-align: center;
+  }
+  section {
+    margin-bottom: 80px;
+  }
+  section h2 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #4D4D4D; /* dark grey */
+    margin-bottom: 20px;
+    border-bottom: 3px solid #CCCCCC; /* light grey line */
+    display: inline-block;
+    padding-bottom: 6px;
+  }
+  section p {
+    color: #777777; /* medium grey */
+    font-size: 1.15rem;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .btn-subscribe {
+    display: inline-block;
+    margin-top: 35px;
+    padding: 16px 45px;
+    background-color: #D0D0D0; /* grey button */
+    color: #4D4D4D; /* dark grey text */
+    font-weight: 700;
+    border-radius: 35px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .btn-subscribe:hover {
+    background-color: #B0B0B0; /* darker grey hover */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+  }
+  .video-list iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 340px;
+    margin: 28px auto;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    background-color: #FFFFFF;
+  }
+  footer {
+    background-color: #F0F0F0; /* very light grey */
+    color: #808080; /* medium grey */
+    text-align: center;
+    padding: 22px 12px;
+    font-size: 1rem;
+    border-top: 1px solid #CCCCCC;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>IlmVerse</h1>
+  <p>Islamic Knowledge. Simplified.</p>
+</header>
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#videos">Videos</a>
+</nav>
+<main>
+  <section id="home">
+    <h2>Welcome to IlmVerse</h2>
+    <p>Explore Islamic wisdom through short, powerful videos. Join us on a journey of knowledge and faith.</p>
+    <a href="https://www.youtube.com/@ilmverse7" target="_blank" class="btn-subscribe">Subscribe on YouTube</a>
+  </section>
+  <section id="about">
+    <h2>About IlmVerse</h2>
+    <p>IlmVerse is a digital platform sharing knowledge from Islamic scholars, stories of Sahaba, and lessons from the Qur’an and Hadith — explained simply for everyone.</p>
+  </section>
+  <section id="videos" class="video-list">
+    <h2>Latest Videos</h2>
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+  </section>
+</main>
+<footer>
+  <p>© 2025 IlmVerse | Follow us on YouTube & Instagram</p>
+</footer>
+</body>
+</html>
